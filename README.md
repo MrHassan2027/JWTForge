@@ -7,7 +7,9 @@ A fast command-line tool for working with JSON Web Tokens. Decode any JWT withou
 
 ## Quick Start
 ```bash
-pip install jwtforge
+git clone https://github.com/MrHassan2027/JWTForge
+cd JWTForge
+pip install -e .
 
 jwtforge decode eyJhbGc...          # decode + pretty print
 jwtforge validate eyJhbGc... --secret mykey
